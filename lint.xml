@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="HardcodedDebugMode" severity="warning" />
+    <issue id="MissingRegistered" severity="warning" />
+    <issue id="NewApi">
+        <ignore path="src/com/qualcomm/QCARSamples/ImageTargets/ui/SampleAppMenu/SampleAppMenuAnimator.java" />
+        <ignore path="src/com/qualcomm/QCARSamples/ImageTargets/ui/SampleAppMenu/SampleAppMenuGroup.java" />
+    </issue>
+</lint>
